@@ -18,6 +18,7 @@ steps:
     echo See https://aka.ms/yaml
     gcc main.c
     ls
+    ./a.out
   displayName: 'Run a multi-line script'
 - task: CMake@1
   inputs:
